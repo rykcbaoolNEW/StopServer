@@ -1,0 +1,11 @@
+name: StopServer
+version: 1.0
+main: ryk.StopGracefully
+api-version: 1.20
+description: A plugin that stops server.
+author: ryk
+commands:
+  stopserver:
+    description: Stops the server safely
+    usage: /stopserver
+    permission: stopserver.use
